@@ -1,0 +1,34 @@
+/* /src/styles/AmbilAntrian.module.css */
+.container {
+  display: flex;
+  flex-direction: column; /* Mengatur arah kolom */
+  justify-content: center; /* Memastikan konten berada di tengah secara vertikal */
+  align-items: center; /* Memastikan konten berada di tengah secara horizontal */
+  flex: 1; /* Mengisi ruang yang tersisa */
+  margin-top: 20px; /* Memberikan ruang untuk header */
+}
+
+.title {
+  font-size: 28px; /* Ukuran font untuk judul */
+  color: #3e966c; /* Warna hijau untuk judul */
+  margin-bottom: 30px; /* Jarak bawah untuk judul */
+  text-align: center; /* Memastikan teks terpusat */
+}
+
+.box {
+  background-color: #3e966c; /* Warna kotak */
+  width: 600px; /* Lebar kotak */
+  height: 600px; /* Tinggi kotak */
+  display: flex; /* Menggunakan flexbox untuk menempatkan teks di tengah */
+  justify-content: center; /* Memastikan teks berada di tengah secara horizontal */
+  align-items: center; /* Memastikan teks berada di tengah secara vertikal */
+  border-radius: 10px; /* Membuat sudut lebih bulat */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan yang lebih halus */
+  text-align: center;
+  cursor: pointer; /* Menunjukkan kursor pointer saat hover */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+.box:hover {
+  background-color: #2e7a5c; /* Warna kotak saat hover */
+}

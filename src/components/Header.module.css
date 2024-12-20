@@ -1,0 +1,26 @@
+/* /src/components/Header.module.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Memastikan logo di kiri dan judul di tengah */
+  padding: 20px; /* Menambah padding untuk header */
+  background-color: white; /* Mengubah warna latar belakang header menjadi putih */
+  color: #3e966c; /* Warna tulisan */
+  position: relative; /* Mengatur posisi relatif */
+  width: 100%; /* Memastikan header mengambil lebar penuh */
+  z-index: 1000; /* Memastikan header berada di atas konten lainnya */
+}
+
+.logo {
+  margin-left: 24px; /* Jarak antara logo dan tepi kiri */
+}
+
+.title {
+  font-size: 36px; /* Ukuran font untuk judul */
+  margin: 0; /* Menghapus margin default */
+  color: #3e966c; /* Warna tulisan hijau */
+  text-align: center; /* Memastikan teks terpusat */
+  flex-grow: 1; /* Memungkinkan judul untuk mengambil ruang yang tersisa */
+  text-align: center; /* Memastikan teks terpusat */
+  font-weight: bold;
+}
